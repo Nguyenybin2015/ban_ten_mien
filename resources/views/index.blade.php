@@ -10,8 +10,8 @@
 </head>
 <body>
     <header>
-        <nav class="navbar navbar-expand-sm navbar-light bg-light">
-              <div class="container">
+        <nav class="navbar navbar-expand-sm navbar-light fixed-top" >
+              
                 <a class="navbar-brand" href="#">Binad</a>
                 <button class="navbar-toggler d-lg-none" type="button" data-bs-toggle="collapse" data-bs-target="#collapsibleNavId" aria-controls="collapsibleNavId"
                     aria-expanded="false" aria-label="Toggle navigation">
@@ -47,13 +47,24 @@
                         </li>
                     </ul>
                 </div>
-          </div>
+          
         </nav>
     </header>
-    <form class="d-flex">
-        <input class="form-control " type="text" placeholder="Search">
-        <button class="btn btn-outline-success" type="submit">Search</button>
-    </form>
+    <div class="container">
+
+        <div class="row height d-flex justify-content-center align-items-center">
+
+          <div class="col-md-8">
+
+            <div class="search">
+              <i class="fa fa-search"></i>
+              <input type="text" class="form-control" placeholder="Have a question? Ask Now">
+              <button class="btn-#bc8052 btn">Search</button>
+            </div>
+          </div>
+          
+        </div>
+    </div>
    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>
 </body>
 </html>

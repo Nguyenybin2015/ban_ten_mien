@@ -1,0 +1,72 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:weight@100;200;300;400;500;600;700;800&display=swap");
+
+body {
+       /* background-color:#eee; */
+       background: url(https://cdn.pixabay.com/photo/2022/10/16/12/57/morning-7525026_960_720.jpg) no-repeat center center fixed;
+       -webkit-background-size: cover;
+       -moz-background-size: cover;
+       -o-background-size: cover;
+       background-size: cover;
+       box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.5);
+       font-family: "Poppins", sans-serif;
+       font-weight: 300;
+}
+
+.height {
+       height: 100vh;
+}
+
+.navbar .collapse{
+       display: flex;
+       float: right;
+       margin-right: 0;
+}
+.search {
+       position: relative;
+       box-shadow: 0 0 40px rgba(51, 51, 51, .1);
+
+}
+
+.search input {
+
+       height: 60px;
+       text-indent: 25px;
+       background-color: rgba(190, 187, 187, 0.75);
+       border: 1px solid rgba(0, 0, 0, 0.5);
+
+}
+
+
+.search input:focus {
+
+       box-shadow: none;
+       border: 2px solid rgba(222, 154, 71);
+
+
+}
+
+.search .fa-search {
+
+       position: absolute;
+       top: 20px;
+       left: 16px;
+
+}
+
+.search button {
+
+       position: absolute;
+       top: 5px;
+       right: 5px;
+       height: 50px;
+       width: 110px;
+       background: rgba(222, 154, 71);
+       border: 1px solid rgba(0, 0, 0, 0.5);
+
+}
+.btn{
+       background-color: #bc8052;
+}
+.navbar{
+       background-color: #92887e;
+}
