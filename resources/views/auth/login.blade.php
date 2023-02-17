@@ -1,4 +1,4 @@
-<x-guest-layout>
+ <x-guest-layout> 
         
         <x-jet-authentication-card>
             <x-slot name="logo">
@@ -47,3 +47,15 @@
             </form>
         </x-jet-authentication-card>
     </x-guest-layout>  
+    <div class="h-14 bg-gradient-to-r from-purple-500 to-pink-500">
+        @if (session('status'))
+                <div class="mb-4 font-medium text-sm text-green-600">
+                    {{ session('status') }}
+                </div>
+            @endif
+        <form  method="post" action="{{ route('login') }}">
+        
+        </form>
+    </div>
+    
+       
